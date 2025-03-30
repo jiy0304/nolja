@@ -1,0 +1,6 @@
+* { box-sizing: border-box; padding: 0; margin: 0; }
+ol, ul { list-style: none; }
+a { text-decoration: none; color: inherit; }
+fieldset { border: 0; }
+legend { display: none; }
+
