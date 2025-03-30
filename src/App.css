@@ -6,6 +6,11 @@ header .inner { display: flex; justify-content: space-between; align-items: cent
 header h1 img { width: 120px; display: block; }
 header .util { display: flex; gap: 20px; filter: invert(1); }
 
+@media (max-width:850px) {
+  header h1 img { width: 100px; }
+  header .util li img { width: 28px; }
+}
+
 .nav .inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
 .nav ul { display: flex; gap: 10px; }
 .nav ul li .inactive-link { display: block; padding: 10px 30px; border-radius: 50px; background: #eee; color: #666; }
@@ -22,6 +27,6 @@ section ul li img { width: 100%; border-radius: 20px; }
 
 footer { background: #eee; padding: 50px 0; color: #666; font-size: 0.875rem; }
 footer .inner { display: flex; flex-direction: column; gap: 20px; }
-footer .footer_link { display: flex; gap: 10px; }
+footer .footer_link { display: flex; gap: 10px; flex-wrap: wrap; }
 
 
